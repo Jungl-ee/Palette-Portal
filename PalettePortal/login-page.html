@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/login-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+    <link rel="stylesheet" href="styles/media.css">
+    
+    <script src="scripts/header.js"></script>
+
+    <title> Palette Portal - Log In </title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="image-container">
+            <img class="login-img" src="images/image-2@2x.png" alt="">
+        </div>
+            
+        <div class="login-box">
+            <h1 class="logo-text">
+                Palette Portal
+                <span
+                   class="txt-rotate"
+                   data-period="2000"
+                   data-rotate='[ "draw.", "sell.", "earn."]'>
+                </span>
+            </h1>
+
+            <p class="header-text"> LOG IN </p>
+            <div class="input-box">
+                <form method="post" action="">
+                    <div>
+                        <div class="form__group field">
+                            <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                            <label for="name" class="form__label">Name</label>
+                        </div>
+                        <div class="form__group field">
+                            <input type="password" class="form__field" placeholder="Password" name="pass"required>
+                            <label for="name" class="form__label"> Password </label>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <input class="login-button" type="submit" value="CONTINUE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
